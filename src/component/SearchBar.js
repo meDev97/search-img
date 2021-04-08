@@ -24,6 +24,7 @@ class SearchBar extends React.Component {
             <input
               value={this.state.term}
               type="text"
+              placeholder="search for a photo"
               onChange={this.onInputChanage}
             ></input>
           </div>
